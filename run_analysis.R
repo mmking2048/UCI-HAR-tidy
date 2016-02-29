@@ -45,8 +45,10 @@ run_analysis <- function() {
     # Descriptive column names
     colNames <- colnames(filteredData);
     colNames <- gsub("-|\\(\\)", "", colNames);
+    colNames <- gsub("^t", "Time", colNames);
+    colNames <- gsub("^f", "Frequency", colNames);
     colNames <- gsub("mean", "Mean", colNames);
-    colNames <- gsub("std", "Std", colNames);
+    colNames <- gsub("std", "StdDev", colNames);
     colnames(filteredData) <- colNames;
 
     # Grab activity list and merge
@@ -74,7 +76,7 @@ run_analysis <- function() {
     print("Writing data...");
     
     # Write data to text file
-    write.table(summaryData, file = "tidyData.txt");
+    write.table(summaryData, file = "tidyData.txt", row.name = FALSE);
     
     print("Done.");
 }
