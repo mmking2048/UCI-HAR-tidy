@@ -122,4 +122,3 @@ The table has 180 rows and 68 columns. It includes the average of each measure o
 
 - FrequencyBodyBodyGyroJerkMagMean
 - FrequencyBodyBodyGyroJerkMagStdDev
-
