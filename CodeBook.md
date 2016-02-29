@@ -40,85 +40,102 @@ The table has 180 rows and 68 columns. It includes the average of each measure o
     - Laying (sic)
 
 ### Measures
-- TimeBodyAccMeanX
-- TimeBodyAccMeanY
-- TimeBodyAccMeanZ
-- TimeBodyAccStdDevX
-- TimeBodyAccStdDevY
-- TimeBodyAccStdDevZ
+- Accelerometer (Body component) Time
+    - TimeBodyAccMeanX
+    - TimeBodyAccMeanY
+    - TimeBodyAccMeanZ
+    - TimeBodyAccStdDevX
+    - TimeBodyAccStdDevY
+    - TimeBodyAccStdDevZ
     
-- TimeGravityAccMeanX
-- TimeGravityAccMeanY
-- TimeGravityAccMeanZ
-- TimeGravityAccStdDevX
-- TimeGravityAccStdDevY
-- TimeGravityAccStdDevZ
+- Accelerometer (Gravity component) Time
+    - TimeGravityAccMeanX
+    - TimeGravityAccMeanY
+    - TimeGravityAccMeanZ
+    - TimeGravityAccStdDevX
+    - TimeGravityAccStdDevY
+    - TimeGravityAccStdDevZ
     
-- TimeBodyAccJerkMeanX
-- TimeBodyAccJerkMeanY
-- TimeBodyAccJerkMeanZ
-- TimeBodyAccJerkStdDevX
-- TimeBodyAccJerkStdDevY
-- TimeBodyAccJerkStdDevZ
+- Accelerometer (Body component) Jerk Time
+    - TimeBodyAccJerkMeanX
+    - TimeBodyAccJerkMeanY
+    - TimeBodyAccJerkMeanZ
+    - TimeBodyAccJerkStdDevX
+    - TimeBodyAccJerkStdDevY
+    - TimeBodyAccJerkStdDevZ
     
-- TimeBodyGyroMeanX
-- TimeBodyGyroMeanY
-- TimeBodyGyroMeanZ
-- TimeBodyGyroStdDevX
-- TimeBodyGyroStdDevY
-- TimeBodyGyroStdDevZ
+- Gyrometer (Body component) Time
+    - TimeBodyGyroMeanX
+    - TimeBodyGyroMeanY
+    - TimeBodyGyroMeanZ
+    - TimeBodyGyroStdDevX
+    - TimeBodyGyroStdDevY
+    - TimeBodyGyroStdDevZ
     
-- TimeBodyGyroJerkMeanX
-- TimeBodyGyroJerkMeanY
-- TimeBodyGyroJerkMeanZ
-- TimeBodyGyroJerkStdDevX
-- TimeBodyGyroJerkStdDevY
-- TimeBodyGyroJerkStdDevZ
+- Gyrometer (Body component) Jerk Time
+    - TimeBodyGyroJerkMeanX
+    - TimeBodyGyroJerkMeanY
+    - TimeBodyGyroJerkMeanZ
+    - TimeBodyGyroJerkStdDevX
+    - TimeBodyGyroJerkStdDevY
+    - TimeBodyGyroJerkStdDevZ
     
-- TimeBodyAccMagMean
-- TimeBodyAccMagStdDev
+- Accelerometer (Body component) Time Magnitude
+    - TimeBodyAccMagMean
+    - TimeBodyAccMagStdDev
 
-- TimeGravityAccMagMean
-- TimeGravityAccMagStdDev
+- Accelerometer (Gravity component) Time Magnitude
+    - TimeGravityAccMagMean
+    - TimeGravityAccMagStdDev
 
-- TimeBodyAccJerkMagMean
-- TimeBodyAccJerkMagStdDev
+- Accelerometer (Body component) Jerk Time Magnitude
+    - TimeBodyAccJerkMagMean
+    - TimeBodyAccJerkMagStdDev
 
-- TimeBodyGyroMagMean
-- TimeBodyGyroMagStdDev
+- Gyrometer (Body component) Time Magnitude
+    - TimeBodyGyroMagMean
+    - TimeBodyGyroMagStdDev
 
-- TimeBodyGyroJerkMagMean
-- TimeBodyGyroJerkMagStdDev
+- Gyrometer (Body component) Jerk Time Magnitude
+    - TimeBodyGyroJerkMagMean
+    - TimeBodyGyroJerkMagStdDev
 
-- FrequencyBodyAccMeanX
-- FrequencyBodyAccMeanY
-- FrequencyBodyAccMeanZ
-- FrequencyBodyAccStdDevX
-- FrequencyBodyAccStdDevY
-- FrequencyBodyAccStdDevZ
+- Accelerometer (Body component) Frequency
+    - FrequencyBodyAccMeanX
+    - FrequencyBodyAccMeanY
+    - FrequencyBodyAccMeanZ
+    - FrequencyBodyAccStdDevX
+    - FrequencyBodyAccStdDevY
+    - FrequencyBodyAccStdDevZ
 
-- FrequencyBodyAccJerkMeanX
-- FrequencyBodyAccJerkMeanY
-- FrequencyBodyAccJerkMeanZ
-- FrequencyBodyAccJerkStdDevX
-- FrequencyBodyAccJerkStdDevY
-- FrequencyBodyAccJerkStdDevZ
+- Accelerometer (Body component) Jerk Frequency
+    - FrequencyBodyAccJerkMeanX
+    - FrequencyBodyAccJerkMeanY
+    - FrequencyBodyAccJerkMeanZ
+    - FrequencyBodyAccJerkStdDevX
+    - FrequencyBodyAccJerkStdDevY
+    - FrequencyBodyAccJerkStdDevZ
 
-- FrequencyBodyGyroMeanX
-- FrequencyBodyGyroMeanY
-- FrequencyBodyGyroMeanZ
-- FrequencyBodyGyroStdDevX
-- FrequencyBodyGyroStdDevY
-- FrequencyBodyGyroStdDevZ
+- Gyrometer (Body component) Frequency
+    - FrequencyBodyGyroMeanX
+    - FrequencyBodyGyroMeanY
+    - FrequencyBodyGyroMeanZ
+    - FrequencyBodyGyroStdDevX
+    - FrequencyBodyGyroStdDevY
+    - FrequencyBodyGyroStdDevZ
 
-- FrequencyBodyAccMagMean
-- FrequencyBodyAccMagStdDev
+- Accelerometer (Body component) Frequency Magnitude
+    - FrequencyBodyAccMagMean
+    - FrequencyBodyAccMagStdDev
 
-- FrequencyBodyBodyAccJerkMagMean
-- FrequencyBodyBodyAccJerkMagStdDev
+- Accelerometer (Body component) Jerk Frequency Magnitude
+    - FrequencyBodyBodyAccJerkMagMean
+    - FrequencyBodyBodyAccJerkMagStdDev
 
-- FrequencyBodyBodyGyroMagMean
-- FrequencyBodyBodyGyroMagStdDev
+- Gyrometer (Body component) Frequency Magnitude
+    - FrequencyBodyBodyGyroMagMean
+    - FrequencyBodyBodyGyroMagStdDev
 
-- FrequencyBodyBodyGyroJerkMagMean
-- FrequencyBodyBodyGyroJerkMagStdDev
+- Gyrometer (Body component) Jerk Frequency Magnitude
+    - FrequencyBodyBodyGyroJerkMagMean
+    - FrequencyBodyBodyGyroJerkMagStdDev
